@@ -129,7 +129,36 @@
     
     
     
-    
+    // jQuery(document).ready(function ($) {
+    //     function topBarHeightCalc() {
+    //         let headerHeight = $(".navigation ").outerHeight();
+    //         if ($(".header-content").length) {
+    //         $(".header-content").css("padding-top", headerHeight)
+    //         }
+    //     }
+    //     topBarHeightCalc();
+    //     window.addEventListener("resize", topBarHeightCalc);
+
+
+
+    //     var text = "<RD/>";
+    //     var i = 0;
+    //     var speed = 150; // typing speed
+
+    //     function typeWriter() {
+    //         if (i < text.length) {
+    //             $(".name-text").append(text.charAt(i));
+    //             i++;
+    //             setTimeout(typeWriter, speed);
+    //         }
+    //     }
+
+    //     // 1333ms delay before starting animation
+    //     setTimeout(function() {
+    //         typeWriter();
+    //     }, 1333);
+
+    // });
     
     
     
