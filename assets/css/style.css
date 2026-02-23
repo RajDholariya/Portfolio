@@ -2575,8 +2575,8 @@ p.name-text {
 .main-logo {
   max-width: 150px;
   width: 100%;
-  filter: brightness(0) saturate(100%) invert(44%) sepia(73%) saturate(7175%) hue-rotate(244deg) brightness(103%) contrast(95%);
-  -webkit-filter: brightness(0) saturate(100%) invert(44%) sepia(73%) saturate(7175%) hue-rotate(244deg) brightness(103%) contrast(95%);
+  /* filter: brightness(0) saturate(100%) invert(44%) sepia(73%) saturate(7175%) hue-rotate(244deg) brightness(103%) contrast(95%);
+  -webkit-filter: brightness(0) saturate(100%) invert(44%) sepia(73%) saturate(7175%) hue-rotate(244deg) brightness(103%) contrast(95%); */
 }
 p.name-text2 {
   text-align: center;
