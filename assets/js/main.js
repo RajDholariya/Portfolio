@@ -125,7 +125,17 @@
     //===== 
     
     
-    
+    const anim_text = gsap.utils.toArray('.fadeText');
+    gsap.registerPlugin(ScrollTrigger);
+    anim_text.forEach((leng, i) => {
+      const anim = gsap.fromTo(leng.children, {y:50, autoAlpha:0 }, {y:0, duration: 0.90, autoAlpha:1, stagger: 0.5, delay:0.90 });
+      ScrollTrigger.create({
+          trigger: leng,
+          ease: "power2.in",
+          animation: anim,
+          toggleActions: 'play none none none',
+      });
+    });
     
     
     
@@ -161,7 +171,6 @@
     // });
     
     
-    
-    
-    
 }(jQuery));
+
+
